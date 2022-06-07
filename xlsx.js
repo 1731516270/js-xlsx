@@ -21058,12 +21058,7 @@ var XmlNode = (function () {
 	  }
 	  return this;
 	}
-  
-	var APOS = "'"; QUOTE = '"'
-	var ESCAPED_QUOTE = {  }
-	ESCAPED_QUOTE[QUOTE] = '&quot;'
-	ESCAPED_QUOTE[APOS] = '&apos;'
-  
+	
 	XmlNode.prototype.escapeAttributeValue = function(att_value) {
 	  return '"' + att_value.replace(/\"/g,'&quot;') + '"';// TODO Extend with four other codes
   
