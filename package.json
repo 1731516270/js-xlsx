@@ -76,7 +76,7 @@
 	},
 	"homepage": "http://sheetjs.com/opensource",
 	"bugs": {
-		"url": "https://github.com/birnfly/js-xlsx/pulls"
+		"url": "https://github.com/1731516270/js-xlsx"
 	},
 	"license": "Apache-2.0",
 	"engines": {
