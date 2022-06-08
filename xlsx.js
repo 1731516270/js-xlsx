@@ -20373,6 +20373,8 @@ function write_cfb_ctr(cfb, o) {
 	return CFB.write(cfb, o);
 }
 
+var style_builder; 
+
 /*global encrypt_agile */
 function write_zip_type(wb, opts) {
 	var o = opts||{};
@@ -21133,8 +21135,8 @@ var XmlNode = (function () {
   
   
 	  // cache style specs to avoid excessive duplication
-	  _hashIndex = {};
-	  _listIndex = [];
+	  var _hashIndex = {};
+	  var _listIndex = [];
   
 	  return {
   
