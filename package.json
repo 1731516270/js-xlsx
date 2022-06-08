@@ -1,8 +1,8 @@
 {
-	"name": "xlsx-color",
-	"version": "0.14.30",
-	"author": "birnfly",
-	"description": "xlsx + style = xlsx-color",
+	"name": "xlsx-color-fix",
+	"version": "0.14.31",
+	"author": "baiqing.su",
+	"description": "fork form birnfly/js-xlsx: https://github.com/birnfly/js-xlsx",
 	"keywords": [
 		"excel",
 		"xls",

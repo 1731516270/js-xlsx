@@ -1,3 +1,5 @@
+This project frok from [birnfly/js-xlsx] (https://github.com/birnfly/js-xlsx), remove an unuseful variable which one will throw an error in Angular 13
+
 该项目fork自[SheetJS js-xlsx](http://sheetjs.com)，并加入了样式功能，代码有参考xlsx-style项目。
 
 # [SheetJS js-xlsx](http://sheetjs.com)
